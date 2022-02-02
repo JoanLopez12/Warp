@@ -13,7 +13,10 @@
     <header>
         <h1>Warp</h1>
 
-        <img src="./img/Logo.png" alt="Logo Joan Lopez"/>
+        <figure>
+            <img src="./img/Logo.png" alt="Logo Joan Lopez">
+            <figcaption>Es el logo de Joan Lopez</figcaption>
+        </figure>
             Joan Camilo López Castro
             <br>
             +57 321 458 2769
@@ -32,12 +35,53 @@
     </header>
 
 <main>
+
     
     <section>
         <article>
-            
+ <form action="">
+          <label for="fname">
+              <span>First name</span>
+              <input type="text" id="fname" name="fname" placeholder="First name" autocomplete="name" required>
+          </label>
+          <label for="lname">
+            <span>Last name</span>
+            <input type="text" id="lname" name="lname"  placeholder="Last name" required>
+        </label>
+          <br>
+          <br>
+         
+           
+          
+          <br>
+          <br>
+         <label for="email">
+            <span>What is your email?</span>
+            <input type="email" id="email" name="email" placeholder="@gmail.com" autocomplete="email" required>
+          </label> 
+           <br>
+           <br>
+         <label   for="telefono">
+            <span>What is your phone number?</span>
+            <input type="tel" id="telefono" placeholder="+57 " autocomplete="mobile">
+         </label>
+        
+         <br> 
+         <br>
+        
+         <label for="date">
+            <span>For what days doy need the service?</span>
+            <input type="datetime-local" id="date" name="date" required> 
+         </label>
+        
+
+         
+        
+
         </article>
+
     </section>
+    
 
     <ul>
         <li>Ingeniero de Mezcla en vivo</li>
@@ -63,7 +107,21 @@
         <ul>
             <li>Se utilizan sofware como ProTools,Ableton, Waves, Plugins Alliance y solid slate logic, utilizando diferentes técnicas en pro de la canción.</li>
         </ul>
-
+    <br>
+    <br>
+    
+    <span>What service do you want?</span>
+    <input list="services" required>
+    <datalist id="services">
+        <option value="Mix">Mix</option>
+        <option value="Mix and Mastering">Mix and Mastering</option>
+        <option value="Instrumental">Instrumental</option>
+        <option value="Postproduction">Postproduction</option>
+        <option value="Direct Sound">Direct Sound</option>
+    </datalist>
+      <br>
+       <input type="submit">
+ </form>
 
     </ol>
     <h2>DAWS que se utiliza</h2>
