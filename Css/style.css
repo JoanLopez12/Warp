@@ -1,0 +1,39 @@
+@font-face {
+    font-family: Andhibath;
+    src: url(/PaginaWarp/Css/Fonts/Andhibath-Demo.ttf);
+}
+
+
+h1
+{
+color: blueviolet;
+font-size: 150px;
+font-family: Andhibath;
+text-align: center;
+}
+
+.warp{
+    color: blueviolet;
+    font-family: Andhibath;
+
+}
+#name{
+    color: crimson;
+    font-family: Andhibath;
+}
+#logo{
+    width: 50px ;
+    position: relative;
+    top: 2px;
+    left: 50px;
+    right: 5px;
+}
+#logoredes
+{
+    width: 50px;
+    position: relative;
+    top: 2px;
+    right: 10px;
+    left: 1500px;
+
+}
