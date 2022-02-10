@@ -1,6 +1,6 @@
 @font-face {
     font-family: Andhibath;
-    src: url(/PaginaWarp/Css/Fonts/Andhibath-Demo.ttf);
+    src: url(/Css/Fonts/Andhibath-Demo.ttf);
 }
 
 
@@ -10,6 +10,9 @@ color: blueviolet;
 font-size: 150px;
 font-family: Andhibath;
 text-align: center;
+border: 8px #8a2be2 double;
+text-shadow:4px 3px 8px rgb(255, 255, 0);
+background-color: rgba(0, 255, 255, 0.5);
 }
 
 .warp{
@@ -17,9 +20,11 @@ text-align: center;
     font-family: Andhibath;
 
 }
-#name{
-    color: crimson;
+#name {
+    color: #ff0000 ;
     font-family: Andhibath;
+    font-size: 20px;
+   
 }
 #logo{
     width: 50px ;
@@ -30,10 +35,26 @@ text-align: center;
 }
 #logoredes
 {
-    width: 50px;
+    width: 15px;
     position: relative;
     top: 2px;
     right: 10px;
     left: 1500px;
 
+}
+.iconos a{
+    background-color: #ff0000;
+}
+
+a:link{
+    color: #8a2be2;
+}
+a:visited{
+    color: green;
+}
+a:hover{
+    color: yellow;
+}
+a:active{
+    color:#ff0000
 }
