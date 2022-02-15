@@ -13,6 +13,10 @@ text-align: center;
 border: 8px #8a2be2 double;
 text-shadow:4px 3px 8px rgb(255, 255, 0);
 background-color: rgba(0, 255, 255, 0.5);
+position: sticky;
+top: 1px;
+
+
 }
 
 .warp{
@@ -20,30 +24,36 @@ background-color: rgba(0, 255, 255, 0.5);
     font-family: Andhibath;
 
 }
+
 #name {
     color: #ff0000 ;
     font-family: Andhibath;
     font-size: 20px;
+    position: fixed;
+    left:100px;
+    
    
 }
-#logo{
+#logojoan{
     width: 50px ;
-    position: relative;
+    float:left;
+    position: fixed;
+    left:25px;
     top: 2px;
-    left: 50px;
-    right: 5px;
 }
 #logoredes
 {
-    width: 15px;
-    position: relative;
-    top: 2px;
-    right: 10px;
-    left: 1500px;
-
+    float: right;
+    
 }
-.iconos a{
+.iconos {
     background-color: #ff0000;
+   
+}
+
+#busqueda{
+    float: right;
+    position: sticky;
 }
 
 a:link{
@@ -57,4 +67,16 @@ a:hover{
 }
 a:active{
     color:#ff0000
+}
+
+footer{
+    position: fixed;
+    bottom: 2px;
+    background-color: rgba(0, 255, 255, 0.5);
+    left: 720PX;
+    float: right;
+}
+.pfooter{
+    display: inline;
+   
 }
