@@ -3,6 +3,89 @@
     src: url(/Css/Fonts/Andhibath-Demo.ttf);
 }
 
+.container__header{
+    background-color: ;
+    
+    
+    
+}
+.container__icons{
+    
+    background-color: rgba(0, 255, 255, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.img__container{
+    background-color: red;
+    padding: 0%;
+}
+#logo__joan{
+    background-color: rgb(25, 0, 255);
+    display: block;
+}
+#name{
+    background-color: yellow;
+    display: block;
+}
+.social__icons{
+    background-color: yellow;
+}
+#search{
+    background-color: yellow;
+}
+
+
+
+.container__footer{
+    background-color: yellow;
+    display: flex;
+}
+
+
+
+
+/*.container__header{
+    background-color: #ff0000; 
+    position: fixed; 
+    padding: 0%;
+    top: 0%;
+    left: 0%;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;      
+   
+        
+}
+
+.icon__img{
+    background-color: #8a2be2;
+}
+
+
+
+
+.warp{
+    color: blueviolet;
+    font-family: Andhibath;
+
+}
+
+#name {
+    color: aqua ;
+    font-family: Andhibath;
+    font-size: 20px;
+    display: inline;
+    background-color: #8a2be2;
+    
+}
+.logojoan{
+    width: 50px ;   
+}
+
+
 
 h1
 {
@@ -13,52 +96,14 @@ text-align: center;
 border: 8px #8a2be2 double;
 text-shadow:4px 3px 8px rgb(255, 255, 0);
 background-color: rgba(0, 255, 255, 0.5);
-position: sticky;
 top: 1px;
-
-
-}
-
-.warp{
-    color: blueviolet;
-    font-family: Andhibath;
-
-}
-
-#name {
-    color: #ff0000 ;
-    font-family: Andhibath;
-    font-size: 20px;
-    position: fixed;
-    left:100px;
-    
-   
-}
-#logojoan{
-    width: 50px ;
-    float:left;
-    position: fixed;
-    left:25px;
-    top: 2px;
-}
-#logoredes
-{
-    float: right;
-    
-}
-.iconos {
-    background-color: #ff0000;
-   
-}
-
-#busqueda{
-    float: right;
-    position: sticky;
+padding: 0;
 }
 
 a:link{
     color: #8a2be2;
 }
+
 a:visited{
     color: green;
 }
@@ -73,10 +118,10 @@ footer{
     position: fixed;
     bottom: 2px;
     background-color: rgba(0, 255, 255, 0.5);
-    left: 720PX;
-    float: right;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    
 }
-.pfooter{
-    display: inline;
-   
-}
+*/
