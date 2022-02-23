@@ -13,9 +13,10 @@ html{
 }
 
 .container__header{
-    background-color:rgba(0, 255, 255, 0);
+    /*background-color:rgba(0, 255, 255, 0);*/
     font-size: 1.8rem;
-    width: 100vw;
+    max-width:100vw;
+   
    
    
    /*preguntarle a Santi si esto esta bien, para sobre poner el titulo de Warp*/
@@ -29,6 +30,7 @@ html{
     
     justify-content: space-between;
     width: 100%;
+    
 }
 
 .img__container{
@@ -91,13 +93,13 @@ html{
    /* background-color: red;*/
    
 
-    padding: 0%
+    padding: 0%;
     text-align: center; 
     display: inline-block;
     margin: 0%;
     position: relative;
-    left: 680px;
-    bottom:80px;
+    left: 30%;
+    bottom: 90px;
    
 
     
@@ -113,8 +115,23 @@ html{
     padding: 0px 20px 0px 20px;
   
 }
+/*MIRAR COMO DIVIDIR MONO EN EL LATERAL EN CUATRO PEDAZOS#container-monkey{
+    position: absolute;
+width: 358px;
+height: 1044px;
+left: 1156px;
+top: 12px;
+}
 
+#img-monkey{
+    position: absolute;
+width: 240px;
+height: 991px;
+left: 1179px;
+top: 30px;
 
+background: url(Monkey 2.jpg);
+} 
 
 /*.container__header{
     background-color: #ff0000; 

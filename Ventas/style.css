@@ -1,0 +1,175 @@
+@font-face {
+    font-family: Andhibath;
+    src: url(/Css/Fonts/Andhibath-Demo.ttf);
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+html{
+    font-size: 62%;
+}
+
+.container__header{
+    /*background-color:rgba(0, 255, 255, 0);*/
+    font-size: 1.8rem;
+    max-width: 100vw;
+   
+   
+   
+   /*preguntarle a Santi si esto esta bien, para sobre poner el titulo de Warp*/
+
+    
+}
+.container__icons{
+    
+   /* background-color: rgba(0, 255, 255, 0.5);*/
+    display: flex;
+    
+    justify-content: space-between;
+    width: 100%;
+    
+}
+
+.img__container{
+    background-color: red;
+    padding: 0%;
+}
+.container__icons-logojoan{
+    display: inline-block;
+}
+#logo__joan{
+    background-color: rgb(251, 255, 0);
+   
+}
+#name{
+    background-color: yellow;
+   text-align: justify;
+   font-family: Andhibath;
+   position: relative;
+   bottom: 35%;
+    
+}
+
+.social__icons{
+    background-color: yellow;
+}
+.main-nav{
+    
+    margin-top: 0%;
+    list-style: none;
+    padding-left: 0%;
+    
+       
+}
+.main-nav__title {
+    background-color: yellow;
+    display: inline-block;
+    
+}
+.main-nav__title a{
+    text-decoration: none;
+}
+
+.main-nav__title a:hover{
+    color: aqua;
+}
+.main-nav__title a:active{
+    color:blueviolet;
+}
+.main-nav__title a::after{
+    content: " / ";
+}
+
+
+.container__footer{
+    background-color: yellow;
+    display: flex;
+}
+
+#title-container{
+   /* background-color: red;*/
+   
+
+    padding: 0%;
+    text-align: center; 
+    display: inline-block;
+    margin: 0%;
+    position: relative;
+    left: 30%;
+    bottom: 90px;
+   
+
+    
+}
+#title-warp{
+    color: blueviolet;
+    font-size: 20rem;
+    font-family: Andhibath;
+    display: inline;
+   /*background-color: aqua;*/
+    text-shadow:4px 3px 8px rgb(255, 255, 0);
+    margin: 0%;
+    padding: 0px 20px 0px 20px;
+  
+}
+
+.aside-container{
+   /* ;
+    position: relative;
+    width: 30%;
+    height: 200%;
+    left: 0px;
+    top: 10%;
+    bottom: ;*/
+    position: absolute;
+    width: 171px;
+    height: 695px;
+    left: 14px;
+    top: 280px;
+    background-color: aqua
+   
+}
+.aside-container img{
+    position: relative;
+    width: 100%;
+    padding: 5%;
+    
+    
+}
+
+.main-container{
+    max-width: 100vw;
+    
+}
+.section-main-container{
+    position: absolute;
+    
+    width: 85%;
+    height: 695px;
+    top: 280px;
+    left: 200px;
+    
+   
+    background-image: url(/img/fondo.jpg);
+    
+    
+
+}
+.main-container h1{
+    font-family: Andhibath;
+    font-size: 5rem;
+    text-align: center;
+    /*background-color:aquamarine;*/
+}
+.audio audio{
+    /*background-color: brown;*/
+    width: 20%;
+    height: 20px;
+    position: absolute;
+    top: 350px;
+    left: 220px;
+    display: inline;
+}
