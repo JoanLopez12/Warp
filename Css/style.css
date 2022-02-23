@@ -25,13 +25,13 @@ html{
 }
 .container__icons{
     
-   /* background-color: rgba(0, 255, 255, 0.5);*/
-    display: flex;
-    
-    justify-content: space-between;
-    width: 100%;
-    
-}
+    /* background-color: rgba(0, 255, 255, 0.5);*/
+     display: flex;
+     
+     justify-content: space-between;
+     width: 100%;
+     
+ }
 
 .img__container{
     background-color: red;
@@ -87,34 +87,33 @@ html{
 .container__footer{
     background-color: yellow;
     display: flex;
+    width: 100vw;
 }
 
 #title-container{
-   /* background-color: red;*/
-   
-
-    padding: 0%;
-    text-align: center; 
-    display: inline-block;
-    margin: 0%;
-    position: relative;
-    left: 30%;
-    bottom: 90px;
-   
-
+    /* background-color: red;*/
     
-}
-#title-warp{
-    color: blueviolet;
-    font-size: 20rem;
-    font-family: Andhibath;
-    display: inline;
-   /*background-color: aqua;*/
-    text-shadow:4px 3px 8px rgb(255, 255, 0);
-    margin: 0%;
-    padding: 0px 20px 0px 20px;
-  
-}
+     text-align: center; 
+     display: inline;
+     position: absolute;
+     width: 50%;
+     top: 20px;
+     margin: 0px;
+     
+     left: 25%;   
+ }
+ #title-warp{
+     color: blueviolet;
+     font-size: 20rem;
+     font-family: Andhibath;
+     display: inline-block;
+    /*background-color: aqua;*/
+     text-shadow:4px 3px 8px rgb(255, 255, 0);
+     margin:0;
+     width: 100%;
+     top: 40px;   
+   
+ }
 /*MIRAR COMO DIVIDIR MONO EN EL LATERAL EN CUATRO PEDAZOS#container-monkey{
     position: absolute;
 width: 358px;
