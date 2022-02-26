@@ -1,0 +1,130 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+   
+}
+
+html{
+    font-size: 62,5%;}
+@font-face {
+        font-family: Andhibath;
+        src: url(/Css/Fonts/Andhibath-Demo.ttf);
+    }
+@font-face {
+    font-family: Roboto;
+    src: url(/Css/Fonts/RobotoSerif-VariableFont_GRAD\,opsz\,wdth\,wght.ttf);
+}
+.container-body{
+    width: 100vw;
+    height: 100vh;
+}   
+.container-header{
+    width: 100%;
+    /*background-color: aqua;*/
+    height: 5rem;
+}
+#logo-joan{
+    width:3rem; 
+}
+
+#nombre-joan{
+    font-family: Andhibath;
+    color: blueviolet;
+}
+
+.container-header-section{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /*background-color:yellow;*/
+     
+}
+
+.article-joan-container{
+     width: 15rem;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /*background-color: antiquewhite;*/
+}
+
+.ul-container{
+    width: 19rem;
+    height: 5rem;
+    display: flex;
+   
+    justify-content: space-between;
+    list-style-type: none;
+    padding-left: 0;
+    font-size: 1.5rem;
+    font-family:Roboto;
+    
+    
+}
+
+.ul-container a{
+    text-decoration: none;
+}
+.ul-container a:link{
+    color: aqua;
+}
+.ul-container a:visited{
+    color: blueviolet;
+}
+
+.ul-container a:hover{
+    color: yellow;
+}
+
+.ul-container a:active{
+    color: blueviolet;
+}
+
+
+.article-icons-container{
+    width: 15rem;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /*background-color: antiquewhite;*/
+
+}
+.article-icons-container img{
+    width: 2rem;
+}
+
+.title-warp{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 2rem;
+    /*background-color:aqua ;*/
+    font-size: 15rem;
+    font-family: Andhibath;
+   
+}
+
+.title-warp a{
+    text-decoration: none;
+    color: blueviolet;
+    position:relative;
+   bottom: 3.6rem;
+   text-shadow:0.2rem 0.1rem 0.2rem rgb(255, 255, 0);
+}
+.title-warp a:link{
+    color: blueviolet;
+}
+.title-warp a:visited{
+    color: blueviolet;
+}
+.title-warp a:hover{
+    color: aqua;
+}
+.title-warp a:active{
+    color: blueviolet;
+}
+
+
